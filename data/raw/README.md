@@ -14,16 +14,29 @@ Clarivate Analytics前身是著名信息服务提供商—汤森路透社（Thom
 ## author_econ.csv / author_cs.csv
 
 First Name
+
 Last Name
+
 ID              在Scopus中的唯一ID，也是文件夹Author_Econ_Detail / Author_CS_Detail 的文件名
+
 Documents       总共发表文章数量
+
 Cited By        所有文章引用数之和
+
 Preprints       当前（2022.5.28）preprints的数量
+
 Coauthor        Coauthor的数量
+
 Topics          研究涉及到的主题，【有缺失值是0】。
+
 Awarded Grants  是否有某一种奖
+
 Category        要么是Economics and Business，要么是Computer Science
+
 Primary Affiliation 主要就职单位
+
 Secondary Affiliations 第二就职单位
+
+
 
 
