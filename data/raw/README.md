@@ -4,9 +4,9 @@ Clarivate Analytics前身是著名信息服务提供商—汤森路透社（Thom
 
 这个list里面提供了各个领域的高被引用学者，我们选择的是最近的年份（2019年，文件：2019_HCR.xlsx），领域是Economics and Business的113位学者（但是只选择了112位，因为学者Peters, Glen P.的h-index不能导出有bug），和Comupter Science的107位学者。这些学者的信息（名字、机构）分别存在文件author_econ.csv和author_cs.csv中。
 
-我们还收集了清华大学部分学者的信息。经管学院经济系：白重恩，陆毅，苏良军。（我们选择的是Scopus查询结果中h-index ≥ 20 的教授）；计算机系：？？？
+我们还收集了清华大学部分学者的信息。经管学院经济系：白重恩，陆毅，苏良军。（我们选择的是Scopus查询结果中h-index ≥ 20 的教授）；计算机系：蔡懿慈、冯建华、冯铃、李国良、唐杰、李涓子、王建勇、武永卫、朱文武、崔鹏、孙茂松、朱军、刘知远、吴建平、龙明盛（15位）
 
-因此，经济商业总共有115位学者，计算机总共有？？？位学者。
+因此，经济商业总共有115位学者，计算机总共有122位学者。
 
 ## Author_Econ_Detail / Author_CS_Detail
 每个学者什么时间发表了什么文章，截至现在引用多少的信息
@@ -29,7 +29,7 @@ Coauthor        Coauthor的数量
 
 Topics          研究涉及到的主题，【有缺失值是0】。
 
-Awarded Grants  是否有某一种奖
+Awarded Grants  与此个人资料相关联的美国授予赠款
 
 Category        要么是Economics and Business，要么是Computer Science
 
