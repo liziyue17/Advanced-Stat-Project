@@ -1,0 +1,123 @@
+﻿First Name,Last Name,ID,Documents,Cited By,Preprints,Coauthor,Topics,Awarded Grants,Category,Primary Affiliation,Secondary Affiliations
+U. Rajendra,Acharya,7004510847,740,20198,18,953,85,0,Computer Science,"Ngee Ann Polytechnic, Singapore","Singapore University of Social Sciences (SUSS), Singapore"
+Ian F.,Akyildiz,35838511900,586,59022,20,351,32,6,Computer Science,"Georgia Institute of Technology, United States",
+Fuad E.,Alsaadi,23566767000,427,9401,0,435,52,0,Computer Science,"King Abdulaziz University, Saudi Arabia",
+Jeffrey G.,Andrews,55627508700,404,25445,42,222,21,4,Computer Science,"University of Texas Austin, United States",
+Yuri,Bazilevs,8582816900,219,8104,6,235,21,4,Computer Science,"Brown University, United States",
+Stephane P. A.,Bordas,57517338500,13,21,27,49,1,0,Computer Science,"University of Luxembourg, Luxembourg","Cardiff University, United Kingdom"
+Rajkumar,Buyya,57194845546,777,40357,56,871,74,0,Computer Science,"University of Melbourne, Australia",
+Giuseppe,Caire,7004399543,620,17986,141,433,50,4,Computer Science,"University of Southern California, United States","Technical University of Berlin, Germany"
+Jinde,Cao,7403354075,1594,23539,12,1093,100,0,Computer Science,"Southeast University - China, China Mainland",
+C. L. Philip,Chen,57217604244,324,2640,12,485,68,0,Computer Science,"South China University of Technology, China Mainland","University of Macau, Macau"
+Min,Chen,25821032200,414,17068,1,562,74,0,Computer Science,"Huazhong University of Science & Technology, China Mainland",
+Xiaofeng,Chen,35721744700,304,5359,4,295,35,0,Computer Science,"Xidian University, China Mainland",
+Xiao-hong,Chen,56888182800,469,13694,0,464,89,0,Computer Science,"Central South University, China Mainland",
+Francisco,Chiclana,9134178600,268,6752,1,401,36,0,Computer Science,"University of Granada, Spain","De Montfort University, United Kingdom"
+Merouane,Debbah,35588784300,643,20083,119,577,54,0,Computer Science,"Universite Paris Saclay, France","Huawei France Research Center, France"
+Zhiguo,Ding,8335376300,643,13148,128,681,37,0,Computer Science,"University of Manchester, United Kingdom",
+Mianxiong,Dong,25822274100,358,6274,6,520,90,0,Computer Science,"Muroran Institute of Technology, Japan",
+Yucheng,Dong,23392045600,205,4040,3,150,14,0,Computer Science,"Sichuan University, China Mainland",
+Maged,Elkashlan,6602911293,229,7700,37,160,24,0,Computer Science,"University of London, United Kingdom",
+John A.,Evans,55724920400,66,2298,25,94,11,4,Computer Science,"University of Colorado Boulder, United States",
+Salvador,Garcia,37103985200,178,13898,16,134,23,0,Computer Science,"University of Granada, Spain",
+Amitava,Ghosh,56574597500,133,5726,11,183,12,0,Computer Science,"Nokia Corporation, Finland",
+Qing-Long,Han,7202485252,585,15772,2,341,47,0,Computer Science,"Swinburne University of Technology, Australia",
+Zhu,Han,55767186700,1339,28308,135,1293,100,15,Computer Science,"University of Houston System, United States",
+Lajos,Hanzo,36043733600,1787,24732,130,1102,100,0,Computer Science,"University of Southampton, United Kingdom",
+Debiao,He,35603655700,288,6304,1,260,37,0,Computer Science,"Wuhan University, China Mainland",
+Robert W.,Heath,55934670700,803,27333,84,496,53,12,Computer Science,"University of Texas Austin, United States","University of Texas System, United States"
+Francisco,Herrera,7102347190,724,36958,5,469,58,0,Computer Science,"University of Granada, Spain",
+Enrique,Herrera-Viedma,7004240703,629,13803,9,708,81,0,Computer Science,"University of Granada, Spain",
+Ekram,Hossain,6701362398,493,18413,71,313,44,0,Computer Science,"University of Manitoba, Canada",
+Guang-Bin,Huang,7403425167,192,19055,0,263,30,0,Computer Science,"Nanyang Technological University, Singapore",
+Kaibin,Huang,15834779200,207,7275,67,179,27,0,Computer Science,"University of Hong Kong, Hong Kong",
+Tingwen,Huang,8868586900,762,13765,8,653,84,0,Computer Science,"Texas A&M University Qatar, Qatar",
+Thomas J. R.,Hughes,55911870000,410,29864,12,320,16,4,Computer Science,"University of Texas System, United States",
+Yaochu,Jin,57201346599,457,11184,34,445,50,0,Computer Science,"University of Surrey, United Kingdom",
+Dervis,Karaboga,6701575189,117,13224,0,58,11,0,Computer Science,"King Abdulaziz University, Saudi Arabia","Erciyes University, Turkey"
+Nei,Kato,7403474407,497,10378,3,391,64,0,Computer Science,"Tohoku University, Japan",
+Ioannis,Krikidis,6508343836,260,6396,41,193,24,0,Computer Science,"University of Cyprus, Cyprus",
+Neeraj,Kumar,57206866080,781,12667,10,952,100,0,Computer Science,"King Abdulaziz University, Saudi Arabia","Thapar University, India"
+Erik G.,Larsson,35555550500,496,17374,111,364,30,0,Computer Science,"Linkoping University, Sweden",
+Victor C. M.,Leung,7102336029,1516,26290,63,1368,100,0,Computer Science,"Shenzhen University, China Mainland","University of British Columbia, Canada"
+Geoffrey Ye,Li,57195633181,503,23992,0,343,41,0,Computer Science,"Georgia Institute of Technology, United States","University System of Georgia, United States"
+Hongyi,Li,57193390538,228,9824,0,211,24,0,Computer Science,"Guangdong University of Technology, China Mainland",
+Jin,Li,57202722689,129,3358,6,233,22,0,Computer Science,"Guangzhou University, China Mainland",
+Xiong,Li,36509118600,189,3756,1,283,44,0,Computer Science,"University of Electronic Science & Technology of China, China Mainland","Hunan University of Science & Technology, China Mainland"
+Xuelong,Li,55936260100,867,28080,9,985,100,0,Computer Science,"Northwestern Polytechnical University, China Mainland",
+Yong,Li,57189401839,499,8250,52,534,68,0,Computer Science,"Tsinghua University, China Mainland",
+Yongming,Li,26642926400,256,6822,0,75,9,0,Computer Science,"Liaoning University of Technology, China Mainland",
+Ying-Chang,Liang,36071330300,580,17277,1,406,57,0,Computer Science,"University of Electronic Science & Technology of China, China Mainland",
+Huchang,Liao,55580964700,301,5107,0,224,33,0,Computer Science,"Sichuan University, China Mainland",
+Derong,Liu,55857948600,620,8378,0,301,15,0,Computer Science,"Guangdong University of Technology, China Mainland",
+Peide,Liu,35388763600,374,4935,3,233,17,0,Computer Science,"Shandong University of Finance & Economics, China Mainland",
+Yan-Jun,Liu,57196028633,202,6377,1,154,12,0,Computer Science,"Liaoning University of Technology, China Mainland",
+Yurong,Liu,36062331200,223,9161,0,225,31,0,Computer Science,"Yangzhou University, China Mainland",
+Wenjing,Lou,7006030576,294,14067,5,181,44,14,Computer Science,"Virginia Polytechnic Institute & State University, United States",
+Luis,Martinez,56215039400,339,8097,0,239,28,0,Computer Science,"Universidad de Jaen, Spain","Ulster University, United Kingdom"
+Thomas L.,Marzetta,7003696826,150,16412,19,153,6,0,Computer Science,"Alcatel-Lucent, France","AT&T, United States; Nokia Bell Labs, United States; Nokia Corporation, Finland"
+Jose M.,Merigo,23482135100,387,4816,1,297,46,0,Computer Science,"University of Technology Sydney, Australia","Universidad de Chile, Chile"
+Seyedali,Mirjalili,51461922300,327,19206,12,493,42,0,Computer Science,"Torrens University Australia, Australia","Griffith University, Australia"
+Andreas F.,Molisch,7006594890,657,23467,72,675,34,16,Computer Science,"University of Southern California, United States",
+Derrick Wing Kwan,Ng,35756277000,311,8054,53,343,37,0,Computer Science,"University of New South Wales Sydney, Australia",
+Hung,Nguyen-Xuan,24503383800,267,5404,5,230,37,0,Computer Science,"China Medical University Taiwan, Taiwan","HUTECH University of Technology, Vietnam"
+Dusit,Niyato,8919714700,778,22940,197,716,92,0,Computer Science,"Nanyang Technological University, Singapore","Nanyang Technological University & National Institute of Education (NIE) Singapore, Singapore"
+Kaoru,Ota,23467341400,262,5604,3,315,74,0,Computer Science,"Muroran Institute of Technology, Japan",
+Ju H.,Park,15036553900,694,14111,0,328,54,0,Computer Science,"Yeungnam University, South Korea",
+Mugen,Peng,7202484665,485,7610,17,417,34,0,Computer Science,"Beijing University of Posts & Telecommunications, China Mainland",
+H. Vincent,Poor,55665272100,2096,51308,328,1393,100,13,Computer Science,"Princeton University, United States",
+Tony Q. S.,Quek,55362784200,593,10288,91,551,82,0,Computer Science,"Singapore University of Technology & Design, Singapore",
+Timon,Rabczuk,56502462200,677,14683,94,655,100,0,Computer Science,"King Saud University, Saudi Arabia",
+Kui,Ren,8396435500,363,15052,33,555,67,7,Computer Science,"Zhejiang University, China Mainland",
+Robert,Schober,7004473639,895,19960,184,503,47,0,Computer Science,"University of Erlangen Nuremberg, Germany",
+Michael A.,Scott,9942259800,55,2987,4,85,0,0,Computer Science,"Brigham Young University, United States",
+Ling,Shao,55643855000,637,15757,181,1118,85,0,Computer Science,"Inception Institute of Artificial Intelligence, United Arab Emirates",
+Jian,Shen,55964982500,280,4785,0,353,73,0,Computer Science,"Nanjing University of Information Science & Technology, China Mainland",
+Xuemin (Sherman),Shen,7402721166,1461,33555,49,897,100,0,Computer Science,"University of Waterloo, Canada",
+Peng,Shi,36748941200,1417,31784,2,840,100,0,Computer Science,"University of Adelaide, Australia","Victoria University, Australia"
+Hongye,Su,7401459370,865,12124,1,504,79,0,Computer Science,"Zhejiang University, China Mainland",
+P. N.,Suganthan,7003996538,460,23431,15,368,36,0,Computer Science,"Nanyang Technological University, Singapore","Nanyang Technological University & National Institute of Education (NIE) Singapore, Singapore"
+Xingming,Sun,8439524300,389,7371,3,447,50,0,Computer Science,"Nanjing University of Information Science & Technology, China Mainland",
+Dacheng,Tao,7102600334,870,33928,0,1313,100,0,Computer Science,"University of Sydney, Australia",
+Shaocheng,Tong,56496204400,481,12142,0,201,15,0,Computer Science,"Liaoning University of Technology, China Mainland",
+Athanasios V.,Vasilakos,57200495061,801,29258,17,1571,100,0,Computer Science,"University of Technology Sydney, Australia","King Saud University, Saudi Arabia"
+Jiafu,Wan,24333732700,189,9060,4,260,55,0,Computer Science,"South China University of Technology, China Mainland",
+Cheng-Xiang,Wang,9941461600,433,9364,42,557,62,0,Computer Science,"Southeast University - China, China Mainland","Heriot Watt University, United Kingdom"
+Jian-Qiang,Wang,56132836000,328,5308,0,158,26,0,Computer Science,"Central South University, China Mainland",
+Jing,Wang,56008058700,145,1685,0,96,19,1,Computer Science,"Central South University, China Mainland","Central South University of Forestry & Technology, China Mainland"
+Zidong,Wang,55810114200,824,21800,0,347,65,0,Computer Science,"Brunel University, United Kingdom",
+Qinglai,Wei,23092563300,269,3437,0,171,13,0,Computer Science,"Chinese Academy of Sciences, China Mainland",
+Ligang,Wu,55505897200,417,11194,2,231,45,0,Computer Science,"Harbin Institute of Technology, China Mainland",
+Zheng-Guang,Wu,24466004700,268,7271,1,169,24,0,Computer Science,"Zhejiang University, China Mainland",
+Meimei,Xia,27968229400,63,3505,0,25,8,0,Computer Science,"Beijing Jiaotong University, China Mainland",
+Bin,Xu,57191205532,166,2929,2,237,31,0,Computer Science,"Northwestern Polytechnical University, China Mainland",
+Zeshui,Xu,55502698400,889,15656,3,395,47,0,Computer Science,"Sichuan University, China Mainland",
+Laurence T.,Yang,7406280812,930,12627,0,1574,100,0,Computer Science,"Saint Francis Xavier University - Canada, Canada",
+Xin-She,Yang,35754063200,364,21420,16,607,36,0,Computer Science,"Middlesex University, United Kingdom",
+Yi,Yang,56159216600,314,13128,3,409,46,0,Computer Science,"University of Technology Sydney, Australia",
+Yiyu,Yao,7403567566,364,8452,0,247,12,0,Computer Science,"University of Regina, Canada",
+F. Richard,Yu,57213980384,735,14871,3,642,77,0,Computer Science,"Carleton University, Canada",
+Yong,Zeng,36976852800,124,6149,59,99,11,0,Computer Science,"Southeast University - China, China Mainland",
+Zhigang,Zeng,35316687300,362,6283,0,233,46,0,Computer Science,"Huazhong University of Science & Technology, China Mainland",
+Haijun,Zhang,57189345966,297,5667,18,432,64,0,Computer Science,"University of Science & Technology Beijing, China Mainland",
+Hong-yu,Zhang,36601805500,119,3501,0,83,20,0,Computer Science,"Central South University, China Mainland",
+Huaguang,Zhang,56122851800,1151,15227,3,545,66,0,Computer Science,"Northeastern University - China, China Mainland",
+Qingfu,Zhang,7406718367,290,11627,25,332,23,0,Computer Science,"City University of Hong Kong, Hong Kong",
+Rui,Zhang,55729156200,502,22359,163,269,29,0,Computer Science,"National University of Singapore, Singapore",
+Yin,Zhang,55975581400,153,446,1,93,26,0,Computer Science,"University of Electronic Science & Technology of China, China Mainland",
+Quan,Zou,23391564900,355,5968,9,574,56,0,Computer Science,"University of Electronic Science & Technology of China, China Mainland",
+Yici,Cai,7401750332,388,2236,1,244,13,0,Computer Science,"Tsinghua University, China Mainland",
+Jianhua,Feng,7403884576,189,3577,0,166,16,0,Computer Science,"Tsinghua University, China Mainland",
+Ling,Feng,57209023943,180,1545,3,147,17,0,Computer Science,"Tsinghua University, China Mainland",
+Guoliang,Li,55800543300,279,4128,15,303,34,0,Computer Science,"Tsinghua University, China Mainland",
+Juanzi,Li,8304332600,286,5302,39,351,20,0,Computer Science,"Tsinghua University, China Mainland",
+Jie,Tang,26667745200,403,9681,72,725,53,0,Computer Science,"Tsinghua University, China Mainland",
+Jianyong,Wang,57208873256,151,7537,10,156,12,0,Computer Science,"Tsinghua University, China Mainland",
+Yongwei,Wu,8417507400,175,1608,1,263,19,0,Computer Science,"Tsinghua University, China Mainland",
+Wenwu,Zhu,7404232311,377,9397,48,481,53,0,Computer Science,"Tsinghua University, China Mainland",
+Peng,Cui,34568700100,185,5036,53,304,37,0,Computer Science,"Tsinghua University, China Mainland",
+Maosong,Sun,7403180987,292,7709,121,344,0,0,Computer Science,"Tsinghua University, China Mainland",
+Jun,Zhu,56734692500,215,4835,135,250,46,0,Computer Science,"Tsinghua University, China Mainland",
+Zhiyuan,Liu,57191691341,193,6943,135,292,27,0,Computer Science,"Tsinghua University, China Mainland",
+Jianping,Wu,7409251457,747,4444,4,594,65,0,Computer Science,"Tsinghua University, China Mainland",
+Mingsheng,Long,36986782000,84,5379,47,82,10,0,Computer Science,"Tsinghua University, China Mainland",
