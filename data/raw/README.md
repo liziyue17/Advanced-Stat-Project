@@ -29,7 +29,7 @@ Coauthor        Coauthor的数量
 
 Topics          研究涉及到的主题，【有缺失值是0】。
 
-Awarded Grants  是否有某一种奖
+Awarded Grants  与此个人资料相关联的美国授予赠款
 
 Category        要么是Economics and Business，要么是Computer Science
 
