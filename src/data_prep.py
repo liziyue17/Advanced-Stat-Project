@@ -52,10 +52,18 @@ def get_extra_features(file_path="./data/raw/Paper_Econ_Detail/"):
 def merge_full_data():
     econ_df = pd.read_csv("./data/raw/author_econ.csv")
     econ_df.index = range(len(econ_df))
-    #econ_df["ID"] = econ_df["ID"].astype(np.int64)
-
     econ_df = pd.merge(econ_df, get_extra_features(file_path="./data/raw/Paper_Econ_Detail/"), how="left", on="ID")
-    print(econ_df)
+
+    cs_df = pd.read_csv("./data/raw/author_cs.csv")
+    cs_df.index = range(len(cs_df))
+    cs_df = pd.merge(cs_df, get_extra_features(file_path="./data/raw/Paper_CS_Detail/"), how="left", on="ID")
+
+    full_df = pd.concat([econ_df, cs_df])
+    full_df.index = range(len(full_df))
+    print(full_df)
+
+    full_df.to_csv("./data/full_features.csv", encoding="utf_8_sig")
+    print("csv saved. ")
 
 
 
