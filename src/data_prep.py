@@ -76,6 +76,7 @@ def prepare_input(file_path="./data/full_features.csv", encoding="onehot", std=T
     data = data.drop(["First Name", "Last Name", "ID", "Primary Affiliation", "Secondary Affiliations"], axis=1)
 
     encoding_list = ["Category", "Country"]
+    #encoding_list = ["Category", "Country", "labels"]
     if encoding == "onehot":
         for col_name in encoding_list:
             onehot_col = pd.get_dummies(data[col_name], prefix=col_name)
@@ -103,4 +104,4 @@ if __name__ == "__main__":
     #s.get_features()
     #get_extra_features()
     #merge_full_data()
-    prepare_input(encoding="onehot", std=True)
+    prepare_input(file_path="./data/full_features_cluster.csv", encoding="onehot", std=True)
