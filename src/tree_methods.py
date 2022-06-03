@@ -1,13 +1,9 @@
 import pandas as pd 
-import numpy as np 
-from sklearn import preprocessing
-from sklearn import linear_model
 from sklearn import tree
 from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
-from sklearn.ensemble import RandomForestRegressor, AdaBoostRegressor, GradientBoostingRegressor
-from sklearn.metrics import make_scorer, accuracy_score, mean_squared_error
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
-import xgboost as xgb
 
 
 
@@ -20,8 +16,6 @@ class TreeModels(object):
 
         print(self.Data)
         self.X, self.y = self.Data.drop(["h_index"], axis=1), self.Data["h_index"]
-        #self.X = preprocessing.scale(self.X, with_mean=True, with_std=True)
-        #print(self.X)
         
         self.split_train_test()
         print("data prepared")
