@@ -94,7 +94,7 @@ def prepare_input(file_path="./data/full_features.csv", encoding="onehot", std=T
             data[feature] = preprocessing.scale(data[feature], with_mean=True, with_std=True)
     
     print(data)
-    #data.to_csv("./data/full_features_onehot_std.csv", encoding="utf_8_sig")
+    #data.to_csv("./data/full_features_onehot.csv", encoding="utf_8_sig")
     return data
 
 
@@ -104,4 +104,4 @@ if __name__ == "__main__":
     #s.get_features()
     #get_extra_features()
     #merge_full_data()
-    prepare_input(file_path="./data/full_features_cluster.csv", encoding="onehot", std=True)
+    prepare_input(file_path="./data/full_features.csv", encoding="onehot", std=False)
