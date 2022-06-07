@@ -14,6 +14,7 @@ class TreeModels(object):
         else:
             self.Data = pd.read_csv("./data/full_features_onehot.csv", index_col=0)
 
+        self.Data = self.Data.drop(["Category_Computer Science", "Country_Australia"], axis=1)
         print(self.Data)
         self.X, self.y = self.Data.drop(["h_index"], axis=1), self.Data["h_index"]
         
@@ -21,7 +22,7 @@ class TreeModels(object):
         print("data prepared")
 
     def split_train_test(self):
-        self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(self.X, self.y, test_size=0.3, random_state=42)
+        self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(self.X, self.y, test_size=0.3, random_state=41)
 
     def score_fn(self, y_pred, y_true): 
         #return accuracy_score(y_pred, y_true)
@@ -38,17 +39,34 @@ class TreeModels(object):
         ax.set_title(title)
 
         #plt.savefig("./results/feature_importance_" + title + ".png", dpi=600)
-        plt.show()
+        #plt.show()
 
     def run_DT(self):
+        '''
+        # CV + GridSearch
         model = tree.DecisionTreeRegressor(random_state=42)
+        params = {
+            "min_samples_leaf": [0.01, 0.03, 0.05],
+            "max_features": ["auto", "sqrt", "log2"],
+            "max_depth": [5, 8, 10, 15]
+        }
+
+        opt_model = GridSearchCV(model, param_grid=params, cv=5, scoring="neg_mean_squared_error")
+        
+        opt_model.fit(self.X_train, self.y_train)
+        print("best score: " + str(opt_model.best_score_))
+        print("best params: " + str(opt_model.best_params_))
+        '''
+        model = tree.DecisionTreeRegressor(max_depth=8, max_features="auto", min_samples_leaf=0.03, random_state=42)
         model.fit(self.X_train, self.y_train)
         y_pred = model.predict(self.X_test)
-        print("Decision Tree, MSE: ", self.score_fn(y_pred, self.y_test))
+        print("Decision Tree: ")
+        print("train MSE: ", self.score_fn(model.predict(self.X_train), self.y_train))
+        print("test MSE: ", self.score_fn(y_pred, self.y_test))
 
         self.plot_importance(model.feature_importances_, model.feature_names_in_, 
                                 topn=10, title="Decision Tree")
-
+        
 
     def run_RF(self):
         '''
@@ -71,7 +89,9 @@ class TreeModels(object):
         model = RandomForestRegressor(n_estimators=200, max_depth=10, max_features=0.75, random_state=42)
         model.fit(self.X_train, self.y_train)
         y_pred = model.predict(self.X_test)
-        print("Random Forest, MSE: ", self.score_fn(y_pred, self.y_test))
+        print("Random Forest")
+        print("train MSE: ", self.score_fn(model.predict(self.X_train), self.y_train))
+        print("test MSE: ", self.score_fn(y_pred, self.y_test))
 
         self.plot_importance(model.feature_importances_, model.feature_names_in_, 
                                 topn=10, title="Random Forest")
@@ -97,7 +117,9 @@ class TreeModels(object):
         model = GradientBoostingRegressor(n_estimators=50, learning_rate=0.6, max_depth=3, random_state=42)
         model.fit(self.X_train, self.y_train)
         y_pred = model.predict(self.X_test)
-        print("Gradient Boosting, MSE: ", self.score_fn(y_pred, self.y_test))
+        print("Gradient Boosting:")
+        print("train MSE: ", self.score_fn(model.predict(self.X_train), self.y_train))
+        print("test MSE: ", self.score_fn(y_pred, self.y_test))
 
         self.plot_importance(model.feature_importances_, model.feature_names_in_, 
                                 topn=10, title="Gradient Boosting")
