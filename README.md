@@ -42,21 +42,23 @@ Clarivate Analytics前身是著名信息服务提供商—汤森路透社（Thom
     - *pub_div*: 发表的多样性，即发表在多少个不同刊物上
     - *academic_age*: 学者的学术年龄，即第一篇发表至今的年数
     - *h_index*
-
 - *full_features_onehot_std.csv*: 经过 onehot encoding 和 standardization 预处理之后的特征
-
 - *full_features_cluster.csv*: 在*full_features.csv*的基础上加入聚类标记
-
 - *full_features_cluster_onehot_std.csv*: 预处理*full_features_cluster.csv*
+- *full_features_linearregFRIENDLY.csv*: 预处理*full_features_cluster.csv*，因为onehot扔到R里面不友好，而且不想标准化
 
 
 ## Clustering Analysis
 
 聚类分析，总结各类学者特征
 
+## PCA
+
+主成分分析
+
 ## Regression Analysis
 
-回归分析，包括特征选取（PCA降维等）
+回归分析
 
 ## Tree-Based Methods
 
